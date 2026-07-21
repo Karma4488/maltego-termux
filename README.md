@@ -21,4 +21,10 @@ Download [Termux](https://termux.com/) from F-Droid (recommended) or the Play St
 ```bash
 pkg update && pkg upgrade
 pkg install python git
-pip install networkx matplotlib requests beautifulsoup4 dnspython python-whois
+pip install -r requirements.txt
+```
+
+### 3. Run the tool
+```bash
+python cli.py
+```
